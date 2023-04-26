@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Creative Stories</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Generate Creative Stories</h1>
+    <form action="/generate_story" method="post">
+        <label for="prompt">Enter your story prompt:</label>
+        <textarea id="prompt" name="prompt" rows="4" cols="50"></textarea>
+        <button type="submit">Generate Story</button>
+    </form>
+    <div id="story-container">
+        {% if story %}
+            <h2>Generated Story</h2>
+            <p>{{ story }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
