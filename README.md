@@ -2,7 +2,7 @@
 Applications build using OpenAI API and GPT4
 
 ## Prompt Engineering Full Course Build by me.
-- 📍 Link - bit.ly/42v376M
+- 📍 Link - https://bit.ly/42v376M
 
 ## 🗂 YouTube Vidoe Explaining About Large Language Models and GPT4 Architecture.
 - 📍 Link - https://bit.ly/3Ms4Jcy
